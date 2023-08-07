@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: auto;
+    max-height: auto;
+}
+
+header {
+    background-color: black;
+    height: 14vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+nav {
+    height: 9vh;
+    width: 9vw;
+}
+
+ul,
+li {
+    display: flex;
+   
+}
+li{
+    margin: 13px 50px 0px 11px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+     
+      
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* background-position: ; */
+}
+
+.image {
+    display: flex;
+    height: 19vh;
+    border: 1px solid white;
+    border-radius: 21vh;
+    margin: auto;
+    margin-top: 4vh;
+}
+
+.box2 {
+    font-size: 4vh;
+    margin: -27px 0 0 1px;
+    margin: -19px 0 0 0px
+}
+
+.btn {
+    background-color: red;
+    /* justify-content: center; */
+    display: block;
+    margin: auto;
+    /* coming soon this section change in future in javascript */
+    /* add something more in future */
+}
+
+
+
+.textlogo {
+    display: flex;
+    justify-content: center;
+    margin: 8vh 0 0 14vh;
+    /* width: 20vh; */
+    border: 1px solid cadetblue;
+    background-color: whitesmoke;
+    font-family: monospace;
+    color: cadetblue;
+    width: 40vw;
+
+}
+
+.physics {
+    margin: 32px;
+}
+
+a:hover {
+    background-color: grey;
+} 
+.parl{
+    display: flex;
+    background-color:black;
+    margin: 229px 0 0 0px;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    padding: 24px 1px;
+}
+.footer2-par{
+    font-family: monospace;  
+    color: white;
+}

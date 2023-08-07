@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: black;
+    color: white;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-family: system-ui;
+    height: 13vh;
+}
+body{
+    background-color:color(from color srgb r g b) ;
+}
